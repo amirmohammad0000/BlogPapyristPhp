@@ -1,5 +1,7 @@
 # Blog Papyrist;
 
+In this project, I have created the Papyrist template blog and it has a database and it is connected to the database in PHP language and the information is read from the server.
+
 ![image](https://user-images.githubusercontent.com/74311184/162993659-85c69546-77b9-41f5-b3bf-fcb9ff5b3a1d.png)
 ![image](https://user-images.githubusercontent.com/74311184/162993756-61a91050-7c0a-4685-bc91-87dceaa27da1.png)
 ![image](https://user-images.githubusercontent.com/74311184/162993850-b6113822-fc97-4413-8b5d-421cac9c52ff.png)
