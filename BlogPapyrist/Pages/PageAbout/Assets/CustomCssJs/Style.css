@@ -1,0 +1,266 @@
+/************************************************************************/ /* Start Style All */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Segoe UI;
+  user-select: none;
+}
+/************************************************************************/ /* End Style All */
+
+/************************************************************************/ /* Start Style App */
+/************************************************************************/ /* Start Style Body */
+body {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ece5e5;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+/************************************************************************/ /* End Style Body */
+
+.section_app_blog_papyrist {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/************************************************************************/ /* Start Style Header */
+.section_header_blog_papyrist {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #d4b1b1;
+}
+
+.section_image_section_header_blog_papyrist {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.section_image_section_header_blog_papyrist i {
+  position: relative;
+  top: -50px;
+  right: 150px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.section_image_section_header_blog_papyrist i:hover {
+  color: #999;
+}
+
+.image_section_header_blog_papyrist {
+  width: 400px;
+}
+
+.section_menu_section_header_blog_papyrist {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.section_menu_section_header_blog_papyrist a {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #222;
+  text-decoration: none;
+}
+
+.section_menu_section_header_blog_papyrist .active {
+  border-bottom: 1px solid #222;
+}
+
+.section_menu_section_header_blog_papyrist a:hover {
+  color: #999;
+  border-bottom: 1px solid #222;
+}
+/************************************************************************/ /* End Style Header */
+
+/************************************************************************/ /* Start Style Content */
+.section_content_blog_papyrist {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_one_section_content_blog_papyrist {
+  color: #222;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.text_two_section_content_blog_papyrist {
+  color: #222;
+  width: 550px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.image_center_content_profile_section_content_blog_papyrist {
+  width: 800px;
+  height: 500px;
+}
+
+.text_three_section_content_blog_papyrist {
+  width: 90%;
+  color: #222;
+  font-size: 30px;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.text_four_section_content_blog_papyrist {
+  width: 90%;
+  color: #222;
+  line-height: 30px;
+  text-align: justify;
+  margin: 20px 0;
+}
+
+.text_five_section_content_blog_papyrist {
+  width: 90%;
+  color: #222;
+  line-height: 30px;
+  text-align: justify;
+  margin: 10px 0;
+}
+
+.text_six_section_content_blog_papyrist {
+  width: 90%;
+  color: #222;
+  line-height: 30px;
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+.ul_section_content_blog_papyrist {
+  width: 90%;
+  color: #222;
+  line-height: 30px;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.li_ul_section_content_blog_papyrist {
+  margin-left: 50px;
+}
+
+.text_seven_section_content_blog_papyrist {
+  width: 90%;
+  color: #222;
+  line-height: 30px;
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+.section_button_bottom_section_content_blog_papyrist {
+  text-decoration: none;
+  transition: all 0.5s;
+  color: #222;
+  width: 200px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: 1px solid #333;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  align-self: flex-start;
+  margin-left: 100px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.section_button_bottom_section_content_blog_papyrist:hover {
+  background-color: #444;
+  color: #eee;
+}
+/************************************************************************/ /* End Style Content */
+
+/************************************************************************/ /* Start Style Footer */
+.section_footer_blog_papyrist {
+  width: 100%;
+  height: 485px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbfbfb;
+}
+
+.section_text_header_section_footer_blog_papyrist {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.section_text_header_section_footer_blog_papyrist p {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.section_text_header_section_footer_blog_papyrist div {
+  width: 40px;
+  height: 2px;
+  background-color: #e67e22;
+}
+
+.section_address_header_section_footer_blog_papyrist {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.section_address_header_section_footer_blog_papyrist p {
+  width: 270px;
+  text-align: justify;
+  font-size: 14px;
+  color: #444;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.section_address_header_section_footer_blog_papyrist a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #999;
+}
+
+.section_copyright_footer_section_footer_blog_papyrist {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 300px;
+}
+/************************************************************************/ /* End Style Footer */
+/************************************************************************/ /* End Style App */

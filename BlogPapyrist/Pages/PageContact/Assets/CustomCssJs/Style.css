@@ -1,0 +1,313 @@
+/************************************************************************/ /* Start Style All */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Segoe UI;
+  user-select: none;
+}
+/************************************************************************/ /* End Style All */
+
+/************************************************************************/ /* Start Style App */
+/************************************************************************/ /* Start Style Body */
+body {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ece5e5;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+/************************************************************************/ /* End Style Body */
+
+.section_app_blog_papyrist {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/************************************************************************/ /* Start Style Header */
+.section_header_blog_papyrist {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #d4b1b1;
+}
+
+.section_image_section_header_blog_papyrist {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.section_image_section_header_blog_papyrist i {
+  position: relative;
+  top: -50px;
+  right: 150px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.section_image_section_header_blog_papyrist i:hover {
+  color: #999;
+}
+
+.image_section_header_blog_papyrist {
+  width: 400px;
+}
+
+.section_menu_section_header_blog_papyrist {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.section_menu_section_header_blog_papyrist a {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #222;
+  text-decoration: none;
+}
+
+.section_menu_section_header_blog_papyrist .active {
+  border-bottom: 1px solid #222;
+}
+
+.section_menu_section_header_blog_papyrist a:hover {
+  color: #999;
+  border-bottom: 1px solid #222;
+}
+/************************************************************************/ /* End Style Header */
+
+/************************************************************************/ /* Start Style Content */
+.section_content_blog_papyrist {
+  width: 60%;
+  height: 1000px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_left_section_content_blog_papyrist {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_left_section_content_blog_papyrist img {
+  width: 100%;
+  height: 80%;
+}
+
+.section_right_section_content_blog_papyrist {
+  width: 55%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 100px;
+}
+
+.text_one_section_right_section_content_blog_papyrist {
+  color: #222;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.text_two_section_right_section_content_blog_papyrist {
+  color: #222;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.form_section_content_blog_papyrist {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.section_inner_form_section_content_blog_papyrist {
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.section_two_inner_form_section_content_blog_papyrist {
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.section_left_section_inner_form_section_content_blog_papyrist {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.section_left_section_inner_form_section_content_blog_papyrist label {
+  color: #444;
+}
+
+.section_left_section_inner_form_section_content_blog_papyrist p {
+  color: #888;
+  font-size: 14px;
+}
+
+.input_first_name_section_left_section_inner_form_section_content_blog_papyrist {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.section_left_section_inner_form_section_content_blog_papyrist {
+  width: 100%;
+}
+
+.input_last_name_section_left_section_inner_form_section_content_blog_papyrist {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  margin: 10px 0;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.input_email_section_inner_form_section_content_blog_papyrist {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  margin: 10px 0;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.text_area_section_inner_form_section_content_blog_papyrist {
+  width: 100%;
+  height: 100px;
+  border: none;
+  outline: none;
+  margin: 10px 0;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.section_button_form_section_content_blog_papyrist {
+  width: 120px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #222;
+  background-color: transparent;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+
+.section_button_form_section_content_blog_papyrist:hover {
+  color: #eee;
+  background-color: #222;
+}
+/************************************************************************/ /* End Style Content */
+
+/************************************************************************/ /* Start Style Footer */
+.section_footer_blog_papyrist {
+  width: 100%;
+  height: 485px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbfbfb;
+}
+
+.section_text_header_section_footer_blog_papyrist {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.section_text_header_section_footer_blog_papyrist p {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.section_text_header_section_footer_blog_papyrist div {
+  width: 40px;
+  height: 2px;
+  background-color: #e67e22;
+}
+
+.section_address_header_section_footer_blog_papyrist {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.section_address_header_section_footer_blog_papyrist p {
+  width: 270px;
+  text-align: justify;
+  font-size: 14px;
+  color: #444;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.section_address_header_section_footer_blog_papyrist a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #999;
+}
+
+.section_copyright_footer_section_footer_blog_papyrist {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 300px;
+}
+/************************************************************************/ /* End Style Footer */
+/************************************************************************/ /* End Style App */
